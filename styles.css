@@ -32,7 +32,7 @@ body{
 
 .recipe{
     margin: 20px;
-    padding: 7%;
+    padding: 5%;
     background-color: var(--White);
     border-radius: 15px;
 }
