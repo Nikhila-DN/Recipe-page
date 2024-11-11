@@ -18,7 +18,7 @@
 
 body{
     margin: 10% 20%;
-    background-color: var(--Rose50);
+    background-color: #f3e5d8;
 }
 
 .recipe-dis, .ingredients, .instructions, .nutrition{
