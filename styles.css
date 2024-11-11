@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{ 
+    --White: hsl(0, 0%, 100%);
+
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    margin: 10% 20%;
+    background-color: var(--Rose50);
+}
+
+.recipe-dis, .ingredients, .instructions, .nutrition{
+    margin:1% auto;
+    padding: 1%;
+}
+ 
+.ingredients{
+    padding-bottom: 7%;
+}
+
+.recipe{
+    margin: 20px;
+    padding: 7%;
+    background-color: var(--White);
+    border-radius: 15px;
+}
+
+hr{
+    color: var(--Stone150) !important;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+
+h2{
+    color: var(--Brown);
+    font-size:x-large;
+}
+
+h5{
+    color: var(--Rose800);
+}
+
+p, ul, ol, h5, tr{
+    font-family: "Outfit";
+    color: var(--Stone600);
+    font-size: 16px;
+}
+
+.time p span{
+ color: hsl(332, 51%, 32%);
+ font-size: large;
+ font-weight: 700;
+}
+
+.time{
+    background-color: var(--Rose50);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ingredients ul{
+    margin-bottom: 2%;
+}
+.time li, .ingredients li{
+    height: 25px;
+    margin: auto;
+}
+
+.instructions li{
+    margin-bottom: 15px;
+}
+
+li{
+    padding-left: 5%;
+}
+
+li span{
+    color: var(--Stone900);
+    font-weight: 600;
+   
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+td:nth-child(2), li::marker {
+    color: var(--Brown);
+    font-weight: 600;
+}
+
+td:first-child{
+    padding-left: 3%;
+}
+
+
+table, tr:not(:last-child){
+    width: 100%;
+    border-bottom:1px solid var(--Stone150);
+    border-collapse: collapse;
+    padding: 5px 4%;
+}
+
+table{
+    border-bottom: none;
+}
+
+.ingredients, .instructions{
+    border-bottom:1px solid var(--Stone150);
+    border-collapse: collapse;
+}
+
+tr{
+    height: 45px;
+    margin: auto;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width:480px){
+    body, .recipe{
+        margin:0;
+        padding: 0%;
+    }
+    img{
+        border-radius: 0;
+    }
+    .recipe-dis, .ingredients, .instructions, .nutrition{
+        margin: 1.5%;
+    }
+}
