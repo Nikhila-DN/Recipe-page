@@ -37,11 +37,6 @@ body{
     border-radius: 15px;
 }
 
-hr{
-    color: var(--Stone150) !important;
-    width: 100%;
-}
-
 img{
     width: 100%;
     border-radius: 10px;
